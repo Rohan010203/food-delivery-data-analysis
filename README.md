@@ -90,10 +90,16 @@ jupyter notebook
 Run the notebook step by step.
 
 ---
-📁 Project Structure
+
 food-delivery-data-analysis/
 │
-├── data/                # Dataset files
-├── notebooks/           # Jupyter notebooks
-├── visuals/             # Graphs and charts
-├── README.md            # Project documentation
+└── food-delivery-hackathon/
+    │
+    ├── Food_Delivery_Data_Integration_Analysis.ipynb   # Main analysis notebook
+    │
+    ├── final_food_delivery_dataset.csv   # Cleaned & integrated dataset
+    ├── orders.csv                        # Order-level data
+    ├── users.json                        # User/customer data
+    ├── restaurants.sql                   # Restaurant database schema/data
+    │
+    └── README.md                         # Project documentation
